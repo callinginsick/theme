@@ -189,7 +189,6 @@ class QuantityInput extends HTMLElement {
   }
 
   validateQtyRules() {
-    return;
     const value = parseInt(this.input.value);
     if (this.input.min) {
       const min = parseInt(this.input.min);
