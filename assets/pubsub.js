@@ -1,6 +1,7 @@
 let subscribers = {};
 
 function subscribe(eventName, callback) {
+  console.log("event", eventName);
   if (subscribers[eventName] === undefined) {
     subscribers[eventName] = [];
   }
